@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "All-Rounder",
+    "playing_position": "Middle Order",
+    "left_hand_bastman": true,
+    "country": "Bangladesh",
+    "rating": 9.8,
+    "price": 95000
+  },
+  {
+    "id": 2,
+    "name": "Tamim Iqbal",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Batsman",
+    "playing_position": "Opening Batsman",
+    "left_hand_bastman": true,
+    "country": "Bangladesh",
+    "rating": 9.5,
+    "price": 85000
+  },
+  {
+    "id": 3,
+    "name": "Mushfiqur Rahim",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Wicket Keeper Batsman",
+    "playing_position": "Middle Order",
+    "left_hand_bastman": false,
+    "country": "Bangladesh",
+    "rating": 9.2,
+    "price": 80000
+  },
+  {
+    "id": 4,
+    "name": "Mahmudullah Riyad",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "All-Rounder",
+    "playing_position": "Finisher",
+    "left_hand_bastman": false,
+    "country": "Bangladesh",
+    "rating": 8.9,
+    "price": 78000
+  },
+  {
+    "id": 5,
+    "name": "Litton Das",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Wicket Keeper Batsman",
+    "playing_position": "Top Order",
+    "left_hand_bastman": false,
+    "country": "Bangladesh",
+    "rating": 9.1,
+    "price": 82000
+  },
+  {
+    "id": 6,
+    "name": "Mustafizur Rahman",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Bowler",
+    "playing_position": "Fast Bowler",
+    "left_hand_bastman": true,
+    "country": "Bangladesh",
+    "rating": 8.8,
+    "price": 76000
+  },
+  {
+    "id": 7,
+    "name": "Andre Russell",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "All-Rounder",
+    "playing_position": "Finisher",
+    "left_hand_bastman": false,
+    "country": "West Indies",
+    "rating": 9.7,
+    "price": 99000
+  },
+  {
+    "id": 8,
+    "name": "Rashid Khan",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Bowler",
+    "playing_position": "Spinner",
+    "left_hand_bastman": false,
+    "country": "Afghanistan",
+    "rating": 9.6,
+    "price": 97000
+  },
+  {
+    "id": 9,
+    "name": "Babar Azam",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Batsman",
+    "playing_position": "Top Order",
+    "left_hand_bastman": false,
+    "country": "Pakistan",
+    "rating": 9.9,
+    "price": 100000
+  },
+  {
+    "id": 10,
+    "name": "David Miller",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "playing_role": "Batsman",
+    "playing_position": "Middle Order",
+    "left_hand_bastman": true,
+    "country": "South Africa",
+    "rating": 9.0,
+    "price": 87000
+  }
+]

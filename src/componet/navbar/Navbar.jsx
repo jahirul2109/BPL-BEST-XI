@@ -20,8 +20,8 @@ export default function Navbar() {
                     <button className="btn btn-ghost">
                         Sehedule
                     </button>
-                    <button className="btn btn-ghost">
-                       <span>0</span> Conis <i class="fa-solid fa-coins"></i>
+                    <button className="btn btn-ghost font-bold">
+                       <span>0</span> Conis <i className="fa-solid text-amber-400 fa-coins"></i>
                     </button>
                 </div>
             </div>
