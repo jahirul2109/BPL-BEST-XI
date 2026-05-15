@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function PlayerCard({ res , player , setPlayer }) {
+export default function PlayerCard({ res , player , setPlayer , handlelSelected }) {
     const handlePlayerData = (id)=> {
         const newPlayer = [...player , id];
         setPlayer(newPlayer);
+        handlelSelected(id);
     }
     console.log(res)
     const {country, id , img, name , left_hand_bastman , playing_position , playing_role , price , rating} = res

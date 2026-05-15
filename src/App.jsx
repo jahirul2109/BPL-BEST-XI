@@ -10,14 +10,16 @@ function App() {
   const [available, setAvilable] = useState(true);
   const [player, setPlayer] = useState([]);
   const [selected , setSelected] = useState([]);
-  console.log(player);
+  const handlelSelected = (id) => {
+    const newData = [...selected , id];
+    setSelected(newData)
+  };
   console.log(selected);
-
   return (
     <>
       <Navbar></Navbar>
       <AvailablePlayers  available={available} setAvilable={setAvilable}></AvailablePlayers>
-      {available ? <Suspense fallback = {<p> Data is Loadding</p>}><Available player = {player} setPlayer ={setPlayer}  promiseData={promiseData}></Available></Suspense> : <Selected></Selected> }
+      {available ? (<Suspense fallback = {<p> Data is Loadding</p>}><Available handlelSelected = {handlelSelected} player = {player} setPlayer ={setPlayer}  promiseData={promiseData}></Available></Suspense>) : (selected.map((playerData) => <Selected selected = {selected} playerData = {playerData} setSelected = {setSelected}></Selected> )) }
     </>
   )
 }

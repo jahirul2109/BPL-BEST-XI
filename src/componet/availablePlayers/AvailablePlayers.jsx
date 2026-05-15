@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AvailablePlayers({available , setAvilable}) {
+export default function AvailablePlayers({ available, setAvilable }) {
     return (
         <div className='max-w-10/12 mx-auto flex justify-between items-center mt-5'>
             <h1 className='font-bold'> {available ? "Avaible" : "Selected"} </h1>

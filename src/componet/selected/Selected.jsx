@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Selected() {
+export default function Selected({selected , setSelected , playerData}) {
+    const { img , id , name , left_hand_bastman} = playerData ;
     return (
         <div className='w-10/12 mx-auto'>
             <div>
@@ -9,8 +10,8 @@ export default function Selected() {
                     <img className='w-14 h-14 object-cover rounded-md' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s" alt="" />
                     </div>
                     <div className="flex-1 mx-3">
-                        <h1 className='font-bold text-xl'>Virat kohili</h1>
-                        <p className='text-gray-500'>Left-hand-bat</p>
+                        <h1 className='font-bold text-xl'>{name}</h1>
+                        <p className='text-gray-500'>{left_hand_bastman ? "Left-hand-bat" : "Right-hand-bat"}</p>
                     </div>
                     <div className="flex-none">
                         <button className="btn btn-square btn-ghost">
