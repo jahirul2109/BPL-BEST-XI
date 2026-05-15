@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar({coin}) {
     return (
         <div className='w-10/12 mx-auto'>
             <div className="navbar shadow-sm">
@@ -21,7 +21,7 @@ export default function Navbar() {
                         Sehedule
                     </button>
                     <button className="btn btn-ghost font-bold">
-                       <span>0</span> Conis <i className="fa-solid text-amber-400 fa-coins"></i>
+                       <span> {coin}</span> Conis <i className="fa-solid text-amber-400 fa-coins"></i>
                     </button>
                 </div>
             </div>
