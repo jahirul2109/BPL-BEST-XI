@@ -1,20 +1,22 @@
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify'
 
-export default function PlayerCard({ res, player, setPlayer, handlelSelected, coin, setCoin, selected, setSelected }) {
+export default function PlayerCard({ res, player, setPlayer, handlelSelected, coin, setCoin, selected, setSelected, count }) {
     const handlePlayerData = (id) => {
         if (coin < id.price) {
             return alert("You have Not enough money")
         }
-        // if (selected.length >= 6) {
-        //     return alert("Your selection complete")
-        // } // Problem
+        if (count === 6) {
+            return toast.error("Your already Selected 6 Player")
+        } // Problem
         const newPlayer = [...player, id];
         setPlayer(newPlayer);
         handlelSelected(id);
         setCoin(pre => pre - id.price);
+        toast.success("Secesfully", { autoClose: 2000 })
     }
-    const isSelected = player.find(p => p.id === res.id);
-    console.log(res)
+    const isSelected = selected.find(p => p.id === res.id);
+    // console.log(res)
     const {
         country,
         id,
@@ -51,7 +53,7 @@ export default function PlayerCard({ res, player, setPlayer, handlelSelected, co
                         <div className='flex justify-between items-center'>
                             <p className='font-bold'>Price : $ {price}</p>
                             <button
-                                className='btn btn-ghost shadow-sm'
+                                className={`btn btn-ghost shadow-sm ${isSelected ? "cursor-no-drop" : ""}`}
                                 onClick={() => handlePlayerData(res)}
                                 disabled={isSelected}
                             >{isSelected ? "Selected" : "Choose Player"}</button>
