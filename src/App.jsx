@@ -4,12 +4,14 @@ import AvailablePlayers from './componet/availablePlayers/AvailablePlayers'
 import Available from './componet/available/Available';
 import Selected from './componet/selected/Selected';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './componet/Footer/Footer';
+import Mailbox from './componet/Mailbox';
 
 const promiseData = fetch('/data/api.json').then(res => res.json())
 
 function App() {
   const [count, setCount] = useState(0);
-  const [coin, setCoin] = useState(10000000);
+  const [coin, setCoin] = useState(1000000);
   const [available, setAvilable] = useState(true);
   const [player, setPlayer] = useState([]);
   const [selected, setSelected] = useState([]);
@@ -61,7 +63,15 @@ function App() {
             setSelected={setSelected}>
           </Selected>
         ))}
-        {available ? "" : <div className='w-10/12 mx-auto'> <button onClick={()=> setAvilable(true )} className='btn btn-ghost bg-green-400'>Add More</button></div>}
+        {available ? "" : <div className='w-10/12 mx-auto'> <button onClick={()=> {
+          if(selected.length >= 6){
+            return toast.error("You Already Selected 6 Player \n Please remove One", {autoClose : 900})
+          }
+          setAvilable(true )
+          
+          }} className='btn btn-ghost bg-green-400'>Add More</button></div>}
+          <Mailbox></Mailbox>
+          <Footer></Footer>
       <ToastContainer></ToastContainer>
     </>
   )

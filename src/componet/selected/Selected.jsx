@@ -7,7 +7,7 @@ export default function Selected({ selected, setSelected, playerData, selectedRe
         setCoin( pre => pre + player.price)
     }
     return (
-        <div className='w-10/12 mx-auto'>
+        <div className='w-10/12 mx-auto my-6'>
             <div>
                 <div className="navbar bg-base-100 shadow-sm">
                     <div className="flex-none">

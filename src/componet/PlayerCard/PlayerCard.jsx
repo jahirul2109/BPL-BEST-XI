@@ -4,16 +4,16 @@ import { ToastContainer, toast } from 'react-toastify'
 export default function PlayerCard({ res, player, setPlayer, handlelSelected, coin, setCoin, selected, setSelected, count }) {
     const handlePlayerData = (id) => {
         if (coin < id.price) {
-            return alert("You have Not enough money")
+            return toast.error("You have not enought", {autoClose: 1000})
         }
         if (count === 6) {
-            return toast.error("Your already Selected 6 Player")
+            return toast.error("Your already Selected 6 Player" , {autoClose: 800})
         } // Problem
         const newPlayer = [...player, id];
         setPlayer(newPlayer);
         handlelSelected(id);
         setCoin(pre => pre - id.price);
-        toast.success("Secesfully", { autoClose: 2000 })
+        toast.success("Secesfully", { autoClose: 500 })
     }
     const isSelected = selected.find(p => p.id === res.id);
     // console.log(res)

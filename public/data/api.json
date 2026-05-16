@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Shakib Al Hasan",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "name": "Pervez Hossian Emon",
+    "img": "https://cricfrenzy.com/public/storage/images/4-2026/cf_adGZRmSC.webp",
     "playing_role": "All-Rounder",
     "playing_position": "Middle Order",
     "left_hand_bastman": true,
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "Tamim Iqbal",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "name": "Tazid Hassan Tamim",
+    "img": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2024/02/20/img_20240220_151827.jpg",
     "playing_role": "Batsman",
     "playing_position": "Opening Batsman",
     "left_hand_bastman": true,
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "Mushfiqur Rahim",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://www.bssnews.net/assets/news_photos/2022/03/04/image-48342-1646396593.jpg",
     "playing_role": "Wicket Keeper Batsman",
     "playing_position": "Middle Order",
     "left_hand_bastman": false,
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "name": "Mahmudullah Riyad",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://cdn.risingbd.com/media/imgAll/2015February/Mahmudullah-WC-ton-1425885630.jpg",
     "playing_role": "All-Rounder",
     "playing_position": "Finisher",
     "left_hand_bastman": false,
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "name": "Litton Das",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://media.prothomalo.com/prothomalo-english/2025-01-12/n4lw4afz/Litton-Das.webp?w=1200&h=675&auto=format%2Ccompress&fit=max",
     "playing_role": "Wicket Keeper Batsman",
     "playing_position": "Top Order",
     "left_hand_bastman": false,
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "name": "Mustafizur Rahman",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://ichef.bbci.co.uk/ace/standard/2048/cpsprodpb/5f0b/live/a94db830-e886-11f0-9f8d-bfce9943ae66.jpg",
     "playing_role": "Bowler",
     "playing_position": "Fast Bowler",
     "left_hand_bastman": true,
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "name": "Andre Russell",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/da5f/live/c6506010-6274-11f0-b9ec-2f50122ae57d.jpg",
     "playing_role": "All-Rounder",
     "playing_position": "Finisher",
     "left_hand_bastman": false,
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "name": "Rashid Khan",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://www.deccanchronicle.com/h-upload/2026/02/16/2010775-aa-6469808.webp",
     "playing_role": "Bowler",
     "playing_position": "Spinner",
     "left_hand_bastman": false,
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "name": "Babar Azam",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://d34080pnh6e62j.cloudfront.net/images/newspost/thumbs/1738329571babar-azam-net-worth-2025.jpg",
     "playing_role": "Batsman",
     "playing_position": "Top Order",
     "left_hand_bastman": false,
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "name": "David Miller",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClSwmRDpmkTyB256xrS0Xkh0B-AVsb6gRlQ&s",
+    "img": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/m4ifva9dvo50akgrly0f",
     "playing_role": "Batsman",
     "playing_position": "Middle Order",
     "left_hand_bastman": true,
