@@ -59,7 +59,9 @@ function App() {
             setCoin={setCoin}
             selectedRemoveHandleing={selectedRemoveHandleing}
             setSelected={setSelected}>
-          </Selected>))}
+          </Selected>
+        ))}
+        {available ? "" : <div className='w-10/12 mx-auto'> <button onClick={()=> setAvilable(true )} className='btn btn-ghost bg-green-400'>Add More</button></div>}
       <ToastContainer></ToastContainer>
     </>
   )
