@@ -4,10 +4,10 @@ import { ToastContainer, toast } from 'react-toastify'
 export default function PlayerCard({ res, player, setPlayer, handlelSelected, coin, setCoin, selected, setSelected, count }) {
     const handlePlayerData = (id) => {
         if (coin < id.price) {
-            return toast.error("You have not enought", {autoClose: 1000})
+            return toast.error("You have not enought money", { autoClose: 1000 })
         }
         if (count === 6) {
-            return toast.error("Your already Selected 6 Player" , {autoClose: 800})
+            return toast.error("Your already Selected 6 Player", { autoClose: 800 })
         } // Problem
         const newPlayer = [...player, id];
         setPlayer(newPlayer);
@@ -31,7 +31,7 @@ export default function PlayerCard({ res, player, setPlayer, handlelSelected, co
         <div className=' '>
             <div className=" card p-3 shadow-sm">
                 <figure>
-                    <img className='rounded-2xl h-60 object-cover'
+                    <img className='rounded-2xl h-60 w-full object-cover'
                         src={img}
                         alt="Shoes" />
                 </figure>

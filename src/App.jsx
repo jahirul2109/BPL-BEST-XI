@@ -11,7 +11,7 @@ const promiseData = fetch('/data/api.json').then(res => res.json())
 
 function App() {
   const [count, setCount] = useState(0);
-  const [coin, setCoin] = useState(1000000);
+  const [coin, setCoin] = useState(500000);
   const [available, setAvilable] = useState(true);
   const [player, setPlayer] = useState([]);
   const [selected, setSelected] = useState([]);
